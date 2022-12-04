@@ -1,0 +1,912 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #1B1E22;
+}
+
+.background-1
+{
+    height: 1034px;
+    background-image: url(images/Rectangle\ 2.1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gradient-1
+{
+    height: 1034px;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 80.67%);
+    /* position: relative; */
+}
+
+.container
+{
+    width: 1135px;
+    margin: auto;
+    position: relative;
+}
+
+.n
+{
+    overflow: auto;
+}
+
+.fast-search
+{
+    position: absolute;
+    width: 500px;
+    height: 360px;
+    background: rgba(51, 51, 51, 0.25);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    right: -59px;
+    top: 169px;
+    padding: 0 59px 0 81px;
+}
+
+#logo
+{
+    padding-top: 29px;
+    padding-right: 33px;
+}
+
+.languages
+{
+    display: inline-block;
+    padding-top: 57px;
+    vertical-align: top;
+}
+
+#Eng
+{
+    text-decoration: none;
+    color: rgba(196, 196, 196, 50%);
+    padding-right: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#Rus
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.key
+{
+    float: right;
+    width: 146px;
+    height: 48px;
+    border: #FFB800 1px solid;
+    border-radius: 10px;
+    padding-top: 11px;
+    margin-top: 41px;
+}
+
+.key a
+{
+    text-decoration: none;
+    padding-left: 33px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.key:hover
+{
+    background-color: #FFB800;
+}
+
+.key:hover a
+{
+    color: black;
+}
+
+nav
+{
+    float: right;
+    margin-top: 54px;
+
+}
+
+nav li
+{
+    display: inline-block;
+    list-style: none;
+    padding-right: 40px;
+}
+
+nav li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.background-1 h2
+{
+    color: white;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 152px;
+    max-width: 450px;
+}
+
+.background-1 p
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    max-width: 474px;
+    padding-top: 42px;
+}
+
+.se p
+{
+    padding-top: 50px;
+    padding-bottom: 23px;
+    font-size: 20px;
+    color: white;
+}
+
+#search
+{
+    width: 360px;
+    height: 36px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: rgba(51, 51, 51, 0.25);
+    color: white;
+    margin-bottom: 21px;
+}
+
+#date
+{
+    width: 168px;
+    height: 36px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: rgba(51, 51, 51, 0.25);
+    color: white;
+    margin-right: 20px;
+}
+
+#duration
+{
+    width: 168px;
+    height: 36px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: rgba(51, 51, 51, 0.25);
+    color: white;
+}
+
+#type
+{
+    width: 360px;
+    height: 36px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: rgba(51, 51, 51, 0.25);
+    color: white;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+button
+{
+    width: 360px;
+    height: 36px;
+    padding-left: 10px;
+    border-radius: 4px;
+    background: #FFB800;
+    border-width: 0;
+}
+
+.gradient-1 h3
+{
+    color: white;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 290px;
+    padding-bottom: 35px;
+}
+
+.why
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.picture
+{
+    flex-basis: 264px;
+}
+
+.picture img
+{
+    padding-left: 100px;
+}
+
+.picture p
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.actual h2
+{
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 25px;
+
+}
+
+.flex-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-wrapper > div
+{
+    flex-basis: 360px;
+    height: 432px;
+    margin-top: 25px;
+}
+
+.flex-wrapper > div .first
+{
+    height: 216px;
+    position: relative;
+    background-size: cover;
+}
+
+.offer-1 .first
+{
+    background-image: url(images/Rectangle\ 7.png);
+}
+
+.offer-2 .first
+{
+    background-image: url(images/Rectangle\ 7\ \(1\).png);
+}
+
+.offer-3 .first
+{
+    background-image: url(images/Rectangle\ 7\ \(2\).png);
+}
+
+.offer-4 .first
+{
+    background-image: url(images/Rectangle\ 7\ \(3\).png);
+}
+
+.offer-5 .first
+{
+    background-image: url(images/Rectangle\ 7\ \(4\).png);
+}
+
+.offer-6 .first
+{
+    background-image: url(images/Rectangle\ 7\ \(5\).png);
+}
+
+.flex-wrapper > div .first .coast
+{
+    width: 78px;
+    height: 32px;
+    position: absolute;
+    bottom: 25px;
+    background-color: #FFB800;
+}
+
+.flex-wrapper > div .first .coast p
+{
+    padding-top: 6px;
+    padding-left: 5px;
+    color:black;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.flex-wrapper > div .first .coast span
+{
+    padding-left: 5px;
+    color:black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.flex-wrapper > div .first .time
+{
+    width: 170px;
+    height: 32px;
+    position: absolute;
+    bottom: 25px;
+    left: 78px;
+    background: rgba(27, 30, 34, 0.9);;
+}
+
+.flex-wrapper > div .first .time p
+{
+    text-align: center;
+    padding-top: 8px;
+    color:white;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.flex-wrapper > div .second
+{
+    position: relative;
+    height: 216px;
+    background-color: #23282F;
+}
+
+.flex-wrapper > div .second h3
+{
+    padding-left: 20px;
+    padding-top: 16px;
+    max-width: 340px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+.flex-wrapper > div .second p
+{
+    padding-left: 20px;
+    max-width: 340px;
+    color:white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.flex-wrapper > div .second a
+{
+    text-decoration: none;
+    color:white;
+    opacity: 0.5;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.flex-wrapper > div:hover
+{
+    transform: scale(1.05);
+}
+
+.flex-wrapper > div:hover .second
+{
+    background-color: white;
+}
+
+.flex-wrapper > div:hover .second h3
+{
+    color: black;
+}
+
+.flex-wrapper > div:hover .second p
+{
+    color: black;
+}
+
+.flex-wrapper > div:hover .second a
+{
+    color: black;
+}
+
+.all 
+{
+    width: 216px;
+    height: 48px;
+    border: #FFB800 solid 1px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 48px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 72px;
+}
+
+.all a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.all:hover
+{
+    background-color: #FFB800;
+}
+
+.all:hover a
+{
+    color: black;
+}
+
+.background-2
+{
+    height: 263px;
+    background-image: url(images/Rectangle.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.gradient-2
+{
+    height: 263px;
+    background: rgba(27, 30, 34, 0.78);
+}
+
+.flex-wrapper-2
+{
+    display: flex;
+    height: 263px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number
+{
+    width: 263px;
+    display: inline-block;
+    text-align: center;
+}
+
+.number b
+{
+    color: #FFB800;
+    font-size: 78px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.number p
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.blog h2
+{
+    color: white;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 62px; 
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.flex-wrapper-3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-1-g
+{
+    flex-basis: 552px;
+    height: 480px;
+    background: url(images/Rectangle\ 2.png);
+}
+
+.blog-1
+{
+    flex-basis: 552px;
+    height: 480px;
+    background-color: rgba(31, 31, 31, 0.65);
+}
+
+.blog-1 h3
+{
+    color: white;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 51px; 
+    width: 500px;
+    padding-left: 28px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.blog-1 p
+{
+    color: white;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 28px; 
+    text-align: center;
+}
+
+
+
+.blog-2
+{
+    width: 264px;
+    height: 480px;
+}
+
+.blog-2 .first-1
+{
+    background-image: url(images/Rectangle\ \(1\).png);
+    width: 264px;
+    height: 216px;
+}
+
+.blog-2 .second-1
+{
+    height: 264px;
+    width: 264px;
+    background-color: #23282F;
+    position: relative;
+}
+
+.blog-2 .second-1 h3
+{
+    padding-left: 20px;
+    padding-top: 16px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+.blog-2 .second-1 p
+{
+    padding-left: 20px;
+    max-width: 340px;
+    color:white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.info
+{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+}
+
+.info p
+{
+    color:white;
+    opacity: 0.5;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.blog-3
+{
+    width: 264px;
+    height: 480px;
+}
+
+.blog-3 .first-1
+{
+    background-image: url(images/Rectangle\ \(2\).png);
+    width: 264px;
+    height: 216px;
+}
+
+.blog-3 .second-1
+{
+    height: 264px;
+    width: 264px;
+    background-color: #23282F;
+    position: relative;
+}
+
+.blog-3 .second-1 h3
+{
+    padding-left: 20px;
+    padding-top: 16px;
+    color:white;
+    max-width: 240px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+.blog-3 .second-1 p
+{
+    padding-left: 20px;
+    max-width: 340px;
+    color:white;
+    max-width: 240px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.blog-2:hover
+{
+    transform: scale(1.05);
+}
+
+.blog-2:hover .second-1
+{
+    background-color: white;
+}
+
+.blog-2:hover .second-1 h3
+{
+    color: black;
+}
+
+.blog-2:hover .second-1 p
+{
+    color: black;
+}
+
+.blog-3:hover
+{
+    transform: scale(1.05);
+}
+
+.blog-3:hover .second-1
+{
+    background-color: white;
+}
+
+.blog-3:hover .second-1 h3
+{
+    color: black;
+}
+
+.blog-3:hover .second-1 p
+{
+    color: black;
+}
+
+.reviews h2
+{
+    color:white;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.reviews .ellipse img
+{
+    display: block;
+    margin: auto;
+    padding-top:  40px;
+    padding-bottom: 30px;
+}
+
+.reviews p
+{
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left: 105.5px;
+    padding-right: 105.5px;
+}
+
+.reviews a
+{
+    text-decoration: none;
+    color: #FFB800;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.group img
+{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#toggle
+{
+    width: 50px;
+    display: none;
+}
+
+@media(max-width:1260px)
+{
+    .fast-search
+    {
+        right: 0;
+    }
+
+    .container
+    {
+        width: 90%;
+    }
+
+    .flex-wrapper
+    {
+        width: 90%;
+        margin: auto;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:1220px)
+{
+    .blog-3
+    {
+        display: none;
+    }
+
+    .flex-wrapper-3
+    {
+        width: 90%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .number:last-child
+    {
+        display: none;
+    }
+}
+
+@media(max-width:1120px)
+{
+    nav
+    {
+        display: none;
+    }
+
+    #toggle
+    {
+        display: block;
+        position: absolute;
+        right: 160px;
+        top: 40px;
+    }
+
+    #toggle:hover + nav
+    {
+        display: block;
+        position: absolute;
+        right: -40px;
+        top: 65px;
+    }
+
+    .picture:last-child
+    {
+        display: none;
+    }
+}
+
+@media(max-width:1085px)
+{
+    .background-1 h2
+    {
+        max-width: 300px;
+        padding-top: 80px;
+    }
+
+    .background-1 p
+    {
+        max-width: 300px;
+    }
+
+    .gradient-1 h3
+    {
+        padding-top: 279px;
+    }
+
+    .blog-2
+    {
+        display: none;
+    }
+}
+
+@media(max-width: 960px)
+{
+    .flex-wrapper
+    {
+        width: 70%;
+    }
+}
+
+@media(max-width: 900px)
+{
+    .fast-search
+    {
+        transform: scale(0.8);
+        top: 320px;
+        left: 0;
+    }
+
+    .background-1 h2
+    {
+        max-width: 90%;
+        margin: auto;
+        padding-top: 80px;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .background-1 p
+    {
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .gradient-1 h3
+    {
+        padding-top: 420px;
+    }
+}
